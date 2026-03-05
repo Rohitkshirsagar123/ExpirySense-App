@@ -1,0 +1,95 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend - React Native
+frontend/.expo/
+frontend/.expo-shared/
+frontend/dist/
+frontend/build/
+frontend/.eas/
+frontend/.git/
+frontend/node_modules/
+frontend/npm-debug.*
+frontend/*.jks
+frontend/*.p8
+frontend/*.p12
+frontend/*.key
+frontend/*.mobileprovision
+frontend/*.orig.*
+
+# Frontend - Android
+frontend/android/.gradle
+frontend/android/.idea
+frontend/android/local.properties
+frontend/android/app/build/
+frontend/android/app/components/
+frontend/android/app/.cxx/
+frontend/android/*.keystore
+frontend/android/*.jks
+
+# Frontend - iOS
+frontend/ios/Pods/
+frontend/ios/Podfile.lock
+frontend/ios/Flutter/Flutter.podspec
+frontend/ios/Flutter/Flutter-Debug.xcconfig
+frontend/ios/Flutter/Flutter-Release.xcconfig
+
+# Backend - Node.js
+backend/node_modules/
+backend/npm-debug.log
+backend/yarn-debug.log
+backend/yarn-error.log
+backend/dist/
+backend/build/
+backend/.env
+backend/.env.local
+
+# Backend - Firebase
+backend/serviceAccountKey.json
+backend/.firebase/
+backend/firebase-debug.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.cache/
+.parcel-cache
+dist/
+build/
+coverage/

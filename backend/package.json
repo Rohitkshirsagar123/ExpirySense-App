@@ -1,0 +1,20 @@
+{
+  "name": "expirysense-backend",
+  "version": "1.0.0",
+  "description": "ExpirySense Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.22.1",
+    "firebase-admin": "^11.9.0",
+    "jsonwebtoken": "^9.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
