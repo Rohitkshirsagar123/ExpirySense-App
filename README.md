@@ -56,8 +56,8 @@ ExpirySense uses a modern **full-stack architecture** with separation of concern
 - **Responsive UI** - Beautiful, intuitive interface for all devices
 
 ### 🔐 Backend API (Services)
-- **User Authentication** - Secure login & registration
-- **Document CRUD** - Create, read, update, delete operations
+- **User Authentication** - JWT-based login & registration
+- **Document Management** - Create, read, delete operations
 - **Reminder Engine** - Automated reminder scheduling
 - **Notification Service** - Send timely alerts to users
 - **RESTful API** - Clean, well-documented endpoints
