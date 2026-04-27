@@ -2,8 +2,8 @@
 // Update these values to change when reminders check daily
 
 export const REMINDER_TIME = {
-  hour: 22,      // 0-23 (24-hour format)
-  minute: 35,    // 0-59
+  hour: 12,      // 0-23 (24-hour format)
+  minute: 39,    // 0-59
 };
 
 // Helper to format time display
@@ -22,4 +22,4 @@ export function getReminderTrigger() {
     hour: REMINDER_TIME.hour,
     minute: REMINDER_TIME.minute,
   };
-}
+} 
