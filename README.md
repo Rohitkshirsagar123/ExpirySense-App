@@ -67,6 +67,8 @@ ExpirySense uses a modern **full-stack architecture** with separation of concern
 
 Watch the full application demo here:
 
+https://www.youtube.com/watch?v=sC0w6ktUI6U
+
 <!-- https://your-video-link -->
 
 **Last Updated:** March 5, 2026  
